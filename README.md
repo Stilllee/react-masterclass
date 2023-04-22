@@ -18,7 +18,7 @@
 - [x] #2.1 Our First Styled Component
 - [x] #2.2 Adapting and Extending
 - [x] #2.3 'As' and Attrs
-- [ ] #2.4 Animations and Pseudo Selectors
+- [x] #2.4 Animations and Pseudo Selectors
 - [ ] #2.5 Pseudo Selectors part Two
 - [ ] #2.6 Super Recap
 - [ ] #2.7 Themes
