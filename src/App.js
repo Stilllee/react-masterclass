@@ -2,6 +2,10 @@ import styled, { keyframes } from "styled-components";
 
 const Wrapper = styled.div`
   display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
 `;
 
 const lotationAnimation = keyframes`
@@ -19,6 +23,10 @@ const lotationAnimation = keyframes`
   }
 `;
 
+const Emoji = styled.span`
+  font-size: 60px;
+`;
+
 const Box = styled.div`
   height: 200px;
   width: 200px;
@@ -27,14 +35,8 @@ const Box = styled.div`
   justify-content: center;
   align-items: center;
   animation: ${lotationAnimation} 3s linear infinite;
-  span {
-    font-size: 60px;
-    &:hover {
-      font-size: 100px;
-    }
-    &:active {
-      opacity: 0;
-    }
+  ${Emoji}:hover {
+    font-size: 100px;
   }
 `;
 
@@ -42,8 +44,9 @@ function App() {
   return (
     <Wrapper>
       <Box>
-        <span>🦁</span>
+        <Emoji as="p">🦁</Emoji>
       </Box>
+      <Emoji as="p">❤️</Emoji>
     </Wrapper>
   );
 }
