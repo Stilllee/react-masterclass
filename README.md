@@ -17,7 +17,7 @@
 - [x] #2.0 Why Styled Components
 - [x] #2.1 Our First Styled Component
 - [x] #2.2 Adapting and Extending
-- [ ] #2.3 'As' and Attrs
+- [x] #2.3 'As' and Attrs
 - [ ] #2.4 Animations and Pseudo Selectors
 - [ ] #2.5 Pseudo Selectors part Two
 - [ ] #2.6 Super Recap
