@@ -12,7 +12,7 @@
 
 ---
 
-### #2 STYLED COMPONENTS
+### [#2 STYLED COMPONENTS]("https://github.com/Stilllee/react-masterclass/tree/01.styled-components")
 
 - [x] #2.0 Why Styled Components
 - [x] #2.1 Our First Styled Component
