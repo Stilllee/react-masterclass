@@ -29,7 +29,7 @@
 
 - [x] #3.0 Introduction
 - [x] #3.1 DefinitelyTyped
-- [ ] #3.2 Typing the Props
+- [x] #3.2 Typing the Props
 - [ ] #3.3 Optional Props
 - [ ] #3.4 State
 - [ ] #3.5 Forms
