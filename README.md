@@ -25,7 +25,7 @@
 
 ---
 
-### #3 TYPESCRIPT
+### 🚩#3 TYPESCRIPT
 
 - [x] #3.0 Introduction
 - [x] #3.1 DefinitelyTyped
