@@ -20,8 +20,8 @@
 - [x] #2.3 'As' and Attrs
 - [x] #2.4 Animations and Pseudo Selectors
 - [x] #2.5 Pseudo Selectors part Two
-- [ ] #2.6 Super Recap
-- [ ] #2.7 Themes
+- [x] #2.6 Super Recap
+- [x] #2.7 Themes
 
 ---
 
