@@ -25,7 +25,7 @@
 
 ---
 
-### #3 TYPESCRIPT
+### [#3 TYPESCRIPT](https://github.com/Stilllee/react-masterclass/tree/02.typescript)
 
 - [x] #3.0 Introduction
 - [x] #3.1 DefinitelyTyped
