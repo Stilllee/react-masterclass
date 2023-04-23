@@ -34,7 +34,7 @@
 - [x] #3.4 State
 - [x] #3.5 Forms
 - [x] #3.6 Themes
-- [ ] #3.7 Recap
+- [x] #3.7 Recap
 
 ---
 
