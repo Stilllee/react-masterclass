@@ -56,7 +56,7 @@
 
 - [x] #5.0 Setup
 - [x] #5.1 Styles
-- [ ] #5.2 Home part Owo
+- [x] #5.2 Home part Owo
 - [ ] #5.3 Home part Two
 - [ ] #5.4 Route States
 - [ ] #5.5 Coin Data
