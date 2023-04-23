@@ -27,8 +27,8 @@
 
 ### #3 TYPESCRIPT
 
-- [ ] #3.0 Introduction
-- [ ] #3.1 DefinitelyTyped
+- [x] #3.0 Introduction
+- [x] #3.1 DefinitelyTyped
 - [ ] #3.2 Typing the Props
 - [ ] #3.3 Optional Props
 - [ ] #3.4 State
