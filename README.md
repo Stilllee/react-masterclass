@@ -58,7 +58,7 @@
 - [x] #5.1 Styles
 - [x] #5.2 Home part Owo
 - [x] #5.3 Home part Two
-- [ ] #5.4 Route States
+- [x] #5.4 Route States
 - [ ] #5.5 Coin Data
 - [ ] #5.6 Data Types
 - [ ] #5.7 Nested Routes part One
