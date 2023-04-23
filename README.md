@@ -32,7 +32,7 @@
 - [x] #3.2 Typing the Props
 - [x] #3.3 Optional Props
 - [x] #3.4 State
-- [ ] #3.5 Forms
+- [x] #3.5 Forms
 - [ ] #3.6 Themes
 - [ ] #3.7 Recap
 
