@@ -30,7 +30,7 @@
 - [x] #3.0 Introduction
 - [x] #3.1 DefinitelyTyped
 - [x] #3.2 Typing the Props
-- [ ] #3.3 Optional Props
+- [x] #3.3 Optional Props
 - [ ] #3.4 State
 - [ ] #3.5 Forms
 - [ ] #3.6 Themes
