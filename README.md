@@ -12,7 +12,7 @@
 
 ---
 
-### #2 STYLED COMPONENTS
+### 🚩#2 STYLED COMPONENTS
 
 - [x] #2.0 Why Styled Components
 - [x] #2.1 Our First Styled Component
