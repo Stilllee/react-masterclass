@@ -63,7 +63,7 @@
 - [x] #5.6 Data Types
 - [x] #5.7 Nested Routes part One
 - [x] #5.8 Nested Routes part Two
-- [ ] #5.9 React Query part One
+- [x] #5.9 React Query part One
 - [ ] #5.10 React Query part Two
 - [ ] #5.11 Recap
 - [ ] #5.12 Price Chart
