@@ -62,7 +62,7 @@
 - [x] #5.5 Coin Data
 - [x] #5.6 Data Types
 - [x] #5.7 Nested Routes part One
-- [ ] #5.8 Nested Routes part Two
+- [x] #5.8 Nested Routes part Two
 - [ ] #5.9 React Query part One
 - [ ] #5.10 React Query part Two
 - [ ] #5.11 Recap
