@@ -15,3 +15,5 @@ export function fetchCoinTickers(coinId: String) {
     response.json()
   );
 }
+
+export function fetchCoinHistory(coinId: string) {}

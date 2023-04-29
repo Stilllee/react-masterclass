@@ -65,7 +65,7 @@
 - [x] #5.8 Nested Routes part Two
 - [x] #5.9 React Query part One
 - [x] #5.10 React Query part Two
-- [ ] #5.11 Recap
+- [x] #5.11 Recap
 - [ ] #5.12 Price Chart
 - [ ] #5.13 Price Chart part Two
 - [ ] #5.14 Price Chart part Three
