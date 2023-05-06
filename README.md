@@ -76,7 +76,7 @@
 
 ### #6 STATE MANAGEMENT
 
-- [ ] #6.0 Dark Mode part One
+- [x] #6.0 Dark Mode part One
 - [ ] #6.1 Dark Mode part Two
 - [ ] #6.2 Introduction to Recoil
 - [ ] #6.3 Introduction to Recoil part Two
