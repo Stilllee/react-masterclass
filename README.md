@@ -68,7 +68,7 @@
 - [x] #5.11 Recap
 - [x] #5.12 Price Chart
 - [x] #5.13 Price Chart part Two
-- [ ] #5.14 Price Chart part Three
+- [x] #5.14 Price Chart part Three
 - [ ] #5.15 Final Touches
 - [ ] #5.16 Conclusions
 
