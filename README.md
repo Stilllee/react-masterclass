@@ -69,7 +69,7 @@
 - [x] #5.12 Price Chart
 - [x] #5.13 Price Chart part Two
 - [x] #5.14 Price Chart part Three
-- [ ] #5.15 Final Touches
+- [x] #5.15 Final Touches
 - [ ] #5.16 Conclusions
 
 ---
