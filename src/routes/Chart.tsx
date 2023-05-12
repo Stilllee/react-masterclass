@@ -26,17 +26,26 @@ function Chart({ coinId }: ChartProps) {
     fetchCoinHistory(coinId)
   );
 
+  const processedData = data?.map((item) => ({
+    x: new Date(item.time_close * 1000).toUTCString(),
+    y: [
+      Number(item.open),
+      Number(item.high),
+      Number(item.low),
+      Number(item.close),
+    ],
+  }));
+
   return (
     <div>
       {isLoading ? (
         "Loading chart..."
       ) : (
         <ApexChart
-          type="line"
+          type="candlestick"
           series={[
             {
-              name: "Price",
-              data: data?.map((price) => Number(price.close)) as number[],
+              data: processedData || [],
             },
           ]}
           options={{
@@ -50,30 +59,18 @@ function Chart({ coinId }: ChartProps) {
               background: "transparent",
             },
             grid: { show: false },
-            stroke: {
-              curve: "smooth",
-              width: 4,
+            xaxis: {
+              type: "datetime",
             },
             yaxis: {
-              show: false,
+              tooltip: {
+                enabled: true,
+              },
             },
-            xaxis: {
-              axisBorder: { show: false },
-              axisTicks: { show: false },
-              labels: { show: false },
-              type: "datetime",
-              categories: data?.map((price) =>
-                new Date(price.time_close * 1000).toUTCString()
-              ),
-            },
-            fill: {
-              type: "gradient",
-              gradient: { gradientToColors: ["#0be881"], stops: [0, 100] },
-            },
-            colors: ["#0fbcf9"],
             tooltip: {
-              y: {
-                formatter: (value) => `$${value.toFixed(2)}`,
+              enabled: true,
+              x: {
+                format: "dd MMM yyyy",
               },
             },
           }}

@@ -14,7 +14,7 @@ import { useQuery } from "react-query";
 import { fetchCoinInfo, fetchCoinTickers } from "../api";
 
 const Container = styled.div`
-  padding: 0px 20px;
+  padding: 20px 20px;
   max-width: 480px;
   margin: 0 auto;
 `;
@@ -38,6 +38,7 @@ const Loader = styled.span`
 `;
 
 const Overview = styled.div`
+  margin: 20px 0;
   display: flex;
   justify-content: space-between;
   background-color: rgba(0, 0, 0, 0.5);
@@ -78,6 +79,22 @@ const Tab = styled.span<{ isActive: boolean }>`
     props.isActive ? props.theme.accentColor : props.theme.textColor};
   a {
     display: block;
+  }
+`;
+
+const HomeButton = styled(Link)`
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  background-color: ${(props) => props.theme.textColor};
+  color: ${(props) => props.theme.bgColor};
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: ${(props) => props.theme.accentColor};
   }
 `;
 
@@ -183,16 +200,19 @@ function Coin({}: ICoinProps) {
   const loading = infoLoading || tickersLoading;
   return (
     <Container>
+      <HomeButton to="/">돌아가기</HomeButton>
       <Helmet>
         <title>
           {state?.name ? state.name : loading ? "Loading..." : infoData?.name}
         </title>
       </Helmet>
+
       <Header>
         <Title>
           {state?.name ? state.name : loading ? "Loading..." : infoData?.name}
         </Title>
       </Header>
+
       {loading ? (
         <Loader>Loading...</Loader>
       ) : (
@@ -234,7 +254,7 @@ function Coin({}: ICoinProps) {
 
           <Switch>
             <Route path={`/:coinId/price`}>
-              <Price />
+              <Price coinId={coinId} />
             </Route>
             <Route path={`/:coinId/chart`}>
               <Chart coinId={coinId} />
