@@ -4,12 +4,12 @@ import Coin from "./Coin";
 
 function Router() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter>
       <Switch>
-        <Route path="/:coinId">
+        <Route path="https://Stilllee.github.io/react-masterclass/:coinId">
           <Coin />
         </Route>
-        <Route path="/">
+        <Route path="https://Stilllee.github.io/react-masterclass/">
           <Coins />
         </Route>
       </Switch>
