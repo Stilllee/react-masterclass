@@ -4,7 +4,7 @@ import Coin from "./Coin";
 
 function Router() {
   return (
-    <BrowserRouter basename="https://Stilllee.github.io/react-masterclass/">
+    <BrowserRouter basename="react-masterclass/">
       <Switch>
         <Route path="/:coinId">
           <Coin />
