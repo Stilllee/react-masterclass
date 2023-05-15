@@ -83,7 +83,7 @@
 - [x] #6.4 Recap
 - [x] #6.5 To Do Setup
 - [x] #6.6 Forms
-- [ ] #6.7 Form Validation
+- [x] #6.7 Form Validation
 - [ ] #6.8 Form Errors
 - [ ] #6.9 Custom Validation
 - [ ] #6.10 Recap
