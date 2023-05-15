@@ -84,7 +84,7 @@
 - [x] #6.5 To Do Setup
 - [x] #6.6 Forms
 - [x] #6.7 Form Validation
-- [ ] #6.8 Form Errors
+- [x] #6.8 Form Errors
 - [ ] #6.9 Custom Validation
 - [ ] #6.10 Recap
 - [ ] #6.11 Add To Do
