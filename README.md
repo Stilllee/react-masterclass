@@ -90,7 +90,7 @@
 - [x] #6.11 Add To Do
 - [x] #6.12 Refactoring
 - [x] #6.13 Categories
-- [ ] #6.14 Immutability part One
+- [x] #6.14 Immutability part One
 - [ ] #6.15 Immutability part Two
 - [ ] #6.16 Selectors part One
 - [ ] #6.17 Selectors part Two
