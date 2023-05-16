@@ -86,7 +86,7 @@
 - [x] #6.7 Form Validation
 - [x] #6.8 Form Errors
 - [x] #6.9 Custom Validation
-- [ ] #6.10 Recap
+- [x] #6.10 Recap
 - [ ] #6.11 Add To Do
 - [ ] #6.12 Refactoring
 - [ ] #6.13 Categories
