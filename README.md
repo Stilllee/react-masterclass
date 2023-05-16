@@ -88,7 +88,7 @@
 - [x] #6.9 Custom Validation
 - [x] #6.10 Recap
 - [x] #6.11 Add To Do
-- [ ] #6.12 Refactoring
+- [x] #6.12 Refactoring
 - [ ] #6.13 Categories
 - [ ] #6.14 Immutability part One
 - [ ] #6.15 Immutability part Two
