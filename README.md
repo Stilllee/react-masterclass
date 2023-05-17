@@ -92,7 +92,7 @@
 - [x] #6.13 Categories
 - [x] #6.14 Immutability part One
 - [x] #6.15 Immutability part Two
-- [ ] #6.16 Selectors part One
+- [x] #6.16 Selectors part One
 - [ ] #6.17 Selectors part Two
 - [ ] #6.18 Enums
 - [ ] #6.19 Recap
