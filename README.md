@@ -40,7 +40,7 @@
 
 ### #4 [🔥2022 UPDATE] REACT ROUTER V6
 
-- [ ] #4.0 Update Introduction
+- [x] #4.0 Update Introduction
 - [ ] #4.1 BrowserRouter
 - [ ] #4.2 createBrowserRouter
 - [ ] #4.3 errorElement
