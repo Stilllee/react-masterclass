@@ -3,6 +3,16 @@ import { useSetRecoilState } from "recoil";
 
 function ToDo({ text, category, id }: IToDo) {
   const setToDos = useSetRecoilState(toDoState);
+
+  // 삭제 함수
+  const onDelete = () => {
+    setToDos((oldToDos) => {
+      // 현재 요소의 id와 일치하지 않는 요소들로 새로운 배열 생성
+      const newToDos = oldToDos.filter((toDo) => toDo.id !== id);
+      return newToDos; // 삭제된 요소를 포함하지 않은 새로운 배열 반환
+    });
+  };
+
   const onClick = (event: React.MouseEvent<HTMLButtonElement>) => {
     const {
       currentTarget: { name },
@@ -36,6 +46,7 @@ function ToDo({ text, category, id }: IToDo) {
           Done
         </button>
       )}
+      <button onClick={onDelete}>Delete</button> {/* 삭제 버튼 */}
     </li>
   );
 }
