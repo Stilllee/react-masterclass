@@ -108,7 +108,7 @@
 - [x] #7.4 Styles and Placeholders
 - [x] #7.5 Reordering
 - [x] #7.6 Reordering part Two
-- [ ] #7.7 Performance
+- [x] #7.7 Performance
 - [ ] #7.8 Multi Boards
 - [ ] #7.9 Same Board Movement
 - [ ] #7.10 Cross Board Movement
