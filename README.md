@@ -111,7 +111,7 @@
 - [x] #7.7 Performance
 - [x] #7.8 Multi Boards
 - [x] #7.9 Same Board Movement
-- [ ] #7.10 Cross Board Movement
+- [x] #7.10 Cross Board Movement
 - [ ] #7.11 Droppable Snapshot
 - [ ] #7.12 Final Styles
 - [ ] #7.13 Refs

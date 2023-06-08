@@ -15,7 +15,6 @@ interface IDraggableCardProps {
 }
 
 function DraggableCard({ toDo, index }: IDraggableCardProps) {
-  console.log(`${toDo}가 렌더링됨`);
   return (
     <Draggable key={toDo} draggableId={toDo} index={index}>
       {/* Draggable의 key와 draggableId는 같아야 한다.*/}
