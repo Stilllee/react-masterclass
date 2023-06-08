@@ -1,17 +1,12 @@
-import {
-  DragDropContext,
-  Droppable,
-  Draggable,
-  DropResult,
-} from "@hello-pangea/dnd";
+import { DragDropContext, DropResult } from "@hello-pangea/dnd";
 import { useRecoilState } from "recoil";
 import styled from "styled-components";
 import { toDoState } from "./atom";
-import DraggableCard from "./Components/DraggableCard";
+import Board from "./Components/Board";
 
 const Wrapper = styled.div`
   display: flex;
-  max-width: 480px;
+  max-width: 680px;
   width: 100%;
   margin: 0 auto;
   justify-content: center;
@@ -22,50 +17,30 @@ const Wrapper = styled.div`
 const Boards = styled.div`
   display: grid;
   width: 100%;
-  grid-template-columns: repeat(1, 1fr);
-`;
-
-const Board = styled.div`
-  padding: 20px 10px;
-  padding-top: 30px;
-  background-color: ${(props) => props.theme.boardColor};
-  border-radius: 5px;
-  min-height: 200px;
+  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
 `;
 
 function App() {
   const [toDos, setToDos] = useRecoilState(toDoState);
   const onDragEnd = ({ draggableId, destination, source }: DropResult) => {
     if (!destination) return;
-    setToDos((oldToDos) => {
+    /* setToDos((oldToDos) => {
       const toDosCopy = [...oldToDos];
       // 1. source.index에서 한 개의 item 지우기
-      console.log(`${source.index}번째 아이템을 지울거야`);
-      console.log(toDosCopy);
       toDosCopy.splice(source.index, 1);
-      console.log("아이템을 지웠어");
-      console.log(toDosCopy);
       // destination.index에 drag한 item을 다시 돌려두기 (삭제할 아이템은 0)
-      console.log(`${draggableId}를 ${destination.index}번째 위치로 돌려놓자`);
       toDosCopy.splice(destination?.index, 0, draggableId);
-      console.log(toDosCopy);
       return toDosCopy;
-    });
+    }); */
   };
   return (
     <DragDropContext onDragEnd={onDragEnd}>
       <Wrapper>
         <Boards>
-          <Droppable droppableId="one">
-            {(magic) => (
-              <Board ref={magic.innerRef} {...magic.droppableProps}>
-                {toDos.map((toDo, index) => (
-                  <DraggableCard key={toDo} index={index} toDo={toDo} />
-                ))}
-                {magic.placeholder}
-              </Board>
-            )}
-          </Droppable>
+          {Object.keys(toDos).map((boardId) => (
+            <Board boardId={boardId} key={boardId} toDos={toDos[boardId]} />
+          ))}
         </Boards>
       </Wrapper>
     </DragDropContext>
