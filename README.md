@@ -101,7 +101,7 @@
 
 ### #7 TRELLO CLONE
 
-- [ ] #7.0 Get Selectors
+- [x] #7.0 Get Selectors
 - [ ] #7.1 Set Selectors
 - [ ] #7.2 Drag and Drop part One
 - [ ] #7.3 Drag and Drop part Two
