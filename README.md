@@ -114,7 +114,7 @@
 - [x] #7.10 Cross Board Movement
 - [x] #7.11 Droppable Snapshot
 - [x] #7.12 Final Styles
-- [ ] #7.13 Refs
+- [x] #7.13 Refs
 - [ ] #7.14 Task Objects
 - [ ] #7.15 Creating Tasks
 - [ ] #7.16 Code Challenge
