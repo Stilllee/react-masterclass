@@ -115,7 +115,7 @@
 - [x] #7.11 Droppable Snapshot
 - [x] #7.12 Final Styles
 - [x] #7.13 Refs
-- [ ] #7.14 Task Objects
+- [x] #7.14 Task Objects
 - [ ] #7.15 Creating Tasks
 - [ ] #7.16 Code Challenge
 
