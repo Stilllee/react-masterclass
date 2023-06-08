@@ -105,7 +105,7 @@
 - [x] #7.1 Set Selectors
 - [x] #7.2 Drag and Drop part One
 - [x] #7.3 Drag and Drop part Two
-- [ ] #7.4 Styles and Placeholders
+- [x] #7.4 Styles and Placeholders
 - [ ] #7.5 Reordering
 - [ ] #7.6 Reordering part Two
 - [ ] #7.7 Performance

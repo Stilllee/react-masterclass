@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@hello-pangea/dnd": "^16.2.0",
     "@tanstack/react-query": "^4.29.3",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -14,7 +15,6 @@
     "apexcharts": "^3.40.0",
     "react": "^18.2.0",
     "react-apexcharts": "^1.4.0",
-    "react-beautiful-dnd": "^13.1.1",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
     "react-hook-form": "^7.43.9",
@@ -52,7 +52,6 @@
     ]
   },
   "devDependencies": {
-    "@types/react-beautiful-dnd": "^13.1.4",
     "@types/react-helmet": "^6.1.6",
     "@types/react-router-dom": "^5.3.3",
     "@types/styled-components": "^5.1.26"
