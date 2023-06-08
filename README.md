@@ -110,7 +110,7 @@
 - [x] #7.6 Reordering part Two
 - [x] #7.7 Performance
 - [x] #7.8 Multi Boards
-- [ ] #7.9 Same Board Movement
+- [x] #7.9 Same Board Movement
 - [ ] #7.10 Cross Board Movement
 - [ ] #7.11 Droppable Snapshot
 - [ ] #7.12 Final Styles

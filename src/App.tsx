@@ -23,16 +23,23 @@ const Boards = styled.div`
 
 function App() {
   const [toDos, setToDos] = useRecoilState(toDoState);
-  const onDragEnd = ({ draggableId, destination, source }: DropResult) => {
-    if (!destination) return;
-    /* setToDos((oldToDos) => {
-      const toDosCopy = [...oldToDos];
-      // 1. source.index에서 한 개의 item 지우기
-      toDosCopy.splice(source.index, 1);
-      // destination.index에 drag한 item을 다시 돌려두기 (삭제할 아이템은 0)
-      toDosCopy.splice(destination?.index, 0, draggableId);
-      return toDosCopy;
-    }); */
+  const onDragEnd = (info: DropResult) => {
+    console.log(info);
+    const { destination, draggableId, source } = info;
+    if (destination?.droppableId === source.droppableId) {
+      // 같은 board안에서 움직이기
+      setToDos((allBoards) => {
+        const boardCopy = [...allBoards[source.droppableId]];
+        // 1. source.index에서 한 개의 item 지우기
+        boardCopy.splice(source.index, 1);
+        // destination.index에 drag한 item을 다시 돌려두기 (삭제할 아이템은 0)
+        boardCopy.splice(destination?.index, 0, draggableId);
+        return {
+          ...allBoards,
+          [source.droppableId]: boardCopy,
+        };
+      });
+    }
   };
   return (
     <DragDropContext onDragEnd={onDragEnd}>
