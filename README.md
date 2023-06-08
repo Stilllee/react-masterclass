@@ -40,15 +40,15 @@
 
 ### #4 [🔥2022 UPDATE] REACT ROUTER V6
 
-- [ ] #4.0 Update Introduction
-- [ ] #4.1 BrowserRouter
-- [ ] #4.2 createBrowserRouter
-- [ ] #4.3 errorElement
-- [ ] #4.4 useNavigate
-- [ ] #4.5 useParams
-- [ ] #4.6 Outlet
-- [ ] #4.7 useOutletContext
-- [ ] #4.8 Extras
+- [x] #4.0 Update Introduction
+- [x] #4.1 BrowserRouter
+- [x] #4.2 createBrowserRouter
+- [x] #4.3 errorElement
+- [x] #4.4 useNavigate
+- [x] #4.5 useParams
+- [x] #4.6 Outlet
+- [x] #4.7 useOutletContext
+- [x] #4.8 Extras
 
 ---
 
@@ -93,9 +93,9 @@
 - [x] #6.14 Immutability part One
 - [x] #6.15 Immutability part Two
 - [x] #6.16 Selectors part One
-- [ ] #6.17 Selectors part Two
-- [ ] #6.18 Enums
-- [ ] #6.19 Recap
+- [x] #6.17 Selectors part Two
+- [x] #6.18 Enums
+- [x] #6.19 Recap
 
 ---
 
