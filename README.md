@@ -106,7 +106,7 @@
 - [x] #7.2 Drag and Drop part One
 - [x] #7.3 Drag and Drop part Two
 - [x] #7.4 Styles and Placeholders
-- [ ] #7.5 Reordering
+- [x] #7.5 Reordering
 - [ ] #7.6 Reordering part Two
 - [ ] #7.7 Performance
 - [ ] #7.8 Multi Boards
