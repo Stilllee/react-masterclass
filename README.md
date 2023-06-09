@@ -117,7 +117,7 @@
 - [x] #7.13 Refs
 - [x] #7.14 Task Objects
 - [x] #7.15 Creating Tasks
-- [ ] #7.16 Code Challenge
+- [x] #7.16 Code Challenge
 
 ---
 
