@@ -124,8 +124,8 @@
 ### #8 ANIMATIONS
 
 - [x] #8.0 Introduction
-- [ ] #8.1 Installation
-- [ ] #8.2 Basic Animations
+- [x] #8.1 Installation
+- [x] #8.2 Basic Animations
 - [ ] #8.3 Variants part One
 - [ ] #8.4 Variants part Two
 - [ ] #8.5 Gestures part One
