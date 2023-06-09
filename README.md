@@ -131,7 +131,7 @@
 - [x] #8.5 Gestures part One
 - [x] #8.6 Gestures part Two
 - [x] #8.7 MotionValues part One
-- [ ] #8.8 MotionValues part Two
+- [x] #8.8 MotionValues part Two
 - [ ] #8.9 MotionValues part Three
 - [ ] #8.10 SVG Animation
 - [ ] #8.11 AnimatePresence
