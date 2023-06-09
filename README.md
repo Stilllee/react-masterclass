@@ -128,7 +128,7 @@
 - [x] #8.2 Basic Animations
 - [x] #8.3 Variants part One
 - [x] #8.4 Variants part Two
-- [ ] #8.5 Gestures part One
+- [x] #8.5 Gestures part One
 - [ ] #8.6 Gestures part Two
 - [ ] #8.7 MotionValues part One
 - [ ] #8.8 MotionValues part Two
