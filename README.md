@@ -130,7 +130,7 @@
 - [x] #8.4 Variants part Two
 - [x] #8.5 Gestures part One
 - [x] #8.6 Gestures part Two
-- [ ] #8.7 MotionValues part One
+- [x] #8.7 MotionValues part One
 - [ ] #8.8 MotionValues part Two
 - [ ] #8.9 MotionValues part Three
 - [ ] #8.10 SVG Animation
