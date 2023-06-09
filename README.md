@@ -139,7 +139,7 @@
 - [x] #8.13 Slider part Two
 - [x] #8.14 You Need to Watch This
 - [x] #8.15 Final Project part One
-- [ ] #8.16 Final Project part Two
+- [x] #8.16 Final Project part Two
 
 ---
 
