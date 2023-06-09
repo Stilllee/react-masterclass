@@ -123,7 +123,7 @@
 
 ### #8 ANIMATIONS
 
-- [ ] #8.0 Introduction
+- [x] #8.0 Introduction
 - [ ] #8.1 Installation
 - [ ] #8.2 Basic Animations
 - [ ] #8.3 Variants part One
