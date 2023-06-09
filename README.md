@@ -116,7 +116,7 @@
 - [x] #7.12 Final Styles
 - [x] #7.13 Refs
 - [x] #7.14 Task Objects
-- [ ] #7.15 Creating Tasks
+- [x] #7.15 Creating Tasks
 - [ ] #7.16 Code Challenge
 
 ---
