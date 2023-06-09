@@ -134,7 +134,7 @@
 - [x] #8.8 MotionValues part Two
 - [x] #8.9 MotionValues part Three
 - [x] #8.10 SVG Animation
-- [ ] #8.11 AnimatePresence
+- [x] #8.11 AnimatePresence
 - [ ] #8.12 Slider part One
 - [ ] #8.13 Slider part Two
 - [ ] #8.14 You Need to Watch This
