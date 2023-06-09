@@ -137,7 +137,7 @@
 - [x] #8.11 AnimatePresence
 - [x] #8.12 Slider part One
 - [x] #8.13 Slider part Two
-- [ ] #8.14 You Need to Watch This
+- [x] #8.14 You Need to Watch This
 - [ ] #8.15 Final Project part One
 - [ ] #8.16 Final Project part Two
 
