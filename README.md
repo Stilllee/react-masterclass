@@ -147,7 +147,7 @@
 
 - [x] #9.0 Introduction
 - [x] #9.1 Header part One
-- [ ] #9.2 Header part Two
+- [x] #9.2 Header part Two
 - [ ] #9.3 Header part Three
 - [ ] #9.4 Header part Four
 - [ ] #9.5 Home Screen part One
