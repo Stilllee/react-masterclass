@@ -146,7 +146,7 @@
 ### #9 NOMFLIX CLONE
 
 - [x] #9.0 Introduction
-- [ ] #9.1 Header part One
+- [x] #9.1 Header part One
 - [ ] #9.2 Header part Two
 - [ ] #9.3 Header part Three
 - [ ] #9.4 Header part Four
