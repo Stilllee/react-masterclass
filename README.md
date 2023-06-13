@@ -151,7 +151,7 @@
 - [x] #9.3 Header part Three
 - [x] #9.4 Header part Four
 - [x] #9.5 Home Screen part One
-- [ ] #9.6 Home Screen part Two
+- [x] #9.6 Home Screen part Two
 - [ ] #9.7 Slider part One
 - [ ] #9.8 Slider part Two
 - [ ] #9.9 Box Animations part One
