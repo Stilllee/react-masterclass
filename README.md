@@ -160,7 +160,7 @@
 - [x] #9.12 Movie Modal part Two
 - [x] #9.13 Movie Modal part Three
 - [x] #9.14 Search Redirect
-- [ ] #9.15 Conclusions
+- [x] #9.15 Conclusions
 
 ---
 
