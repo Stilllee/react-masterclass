@@ -59,6 +59,9 @@ table {
 * {
   box-sizing: border-box;
 }
+::-webkit-scrollbar {
+display: none;
+}
 body {
   font-weight: 300;
   font-family: 'Source Sans Pro', sans-serif;
