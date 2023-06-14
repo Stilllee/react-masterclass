@@ -156,7 +156,7 @@
 - [x] #9.8 Slider part Two
 - [x] #9.9 Box Animations part One
 - [x] #9.10 Box Animations part Two
-- [ ] #9.11 Movie Modal
+- [x] #9.11 Movie Modal
 - [ ] #9.12 Movie Modal part Two
 - [ ] #9.13 Movie Modal part Three
 - [ ] #9.14 Search Redirect
