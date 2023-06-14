@@ -158,7 +158,7 @@
 - [x] #9.10 Box Animations part Two
 - [x] #9.11 Movie Modal
 - [x] #9.12 Movie Modal part Two
-- [ ] #9.13 Movie Modal part Three
+- [x] #9.13 Movie Modal part Three
 - [ ] #9.14 Search Redirect
 - [ ] #9.15 Conclusions
 
